@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="349.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab9.Task2">
+   <children>
+      <Button fx:id="button_solve_task2" layoutX="27.0" layoutY="239.0" mnemonicParsing="false" onAction="#onClickButtonTask2" text="Обчислити" />
+      <Label layoutX="33.0" layoutY="39.0" text="Завдання 2" textFill="RED">
+         <font>
+            <Font size="27.0" />
+         </font></Label>
+      <Label layoutY="78.0" prefHeight="64.0" prefWidth="600.0" text="Нехай в 9-поверховому будинку по 5 квартир на поверсі. Написати програму, яка за введеним номером квартири повідомляє номер поверху, на якій вона знаходиться." textAlignment="JUSTIFY" underline="true" wrapText="true" />
+      <Label layoutX="33.0" layoutY="183.0" text="Введіть номер квартири:" />
+      <TextField fx:id="text_floor" layoutX="27.0" layoutY="201.0" />
+   </children>
+</AnchorPane>
