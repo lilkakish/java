@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="301.0" prefWidth="324.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="523.0" prefWidth="414.0">
+      <children>
+          <Button layoutX="14.0" layoutY="219.0" onAction="#onSolveButtonClick" text="Обчислити" />
+         <TextField fx:id="text_a" layoutX="14.0" layoutY="56.0" prefHeight="26.0" prefWidth="105.0" />
+         <TextField fx:id="text_b" layoutX="13.0" layoutY="120.0" prefHeight="26.0" prefWidth="106.0" />
+         <TextField fx:id="text_c" layoutX="13.0" layoutY="177.0" prefHeight="26.0" prefWidth="106.0" />
+         <Label fx:id="id_a" layoutX="14.0" layoutY="32.0" text="Введіть a" />
+         <Label fx:id="id_b" layoutX="14.0" layoutY="97.0" text="Введіть b" />
+         <Label fx:id="id_c" layoutX="14.0" layoutY="153.0" prefHeight="18.0" prefWidth="63.0" text="Введіть c" />
+         <Label fx:id="output" layoutX="187.0" layoutY="32.0" />
+      </children>
+   </AnchorPane>
+</VBox>
